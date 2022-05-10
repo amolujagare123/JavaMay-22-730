@@ -15,7 +15,13 @@ public class DatatypeDemo {
         System.out.println(c);
 
 
-        byte b1 = -129;
+        byte b1 = -127;
+
+        short ss = 32767;
+
+        float f = 23.5f ;
+
+        double d = 23.6;
 
     }
 }
