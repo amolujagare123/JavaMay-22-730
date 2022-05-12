@@ -12,7 +12,6 @@ public class GreaterNumber {
 
         }
         else
-
             System.out.println(b+" is greater than "+a);
 
     }
