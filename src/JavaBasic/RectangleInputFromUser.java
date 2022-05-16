@@ -1,3 +1,5 @@
+package JavaBasic;
+
 import java.util.Scanner;
 
 public class RectangleInputFromUser {

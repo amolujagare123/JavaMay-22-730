@@ -1,3 +1,5 @@
+package JavaBasic;
+
 public class DecrementOperation {
 
     public static void main(String[] args) {

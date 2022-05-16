@@ -1,3 +1,5 @@
+package JavaBasic;
+
 public class SwitchCaseDemo {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class SwitchCaseDemo {
         switch (operation)
         {
             case "add" : c = a + b;
-                System.out.println("Addition="+c);
+                System.out.println("JavaBasic.Addition="+c);
                 break;
 
             case "sub": c = a - b;

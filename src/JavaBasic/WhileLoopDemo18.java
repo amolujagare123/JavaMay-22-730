@@ -1,3 +1,5 @@
+package JavaBasic;
+
 public class WhileLoopDemo18 {
 
     public static void main(String[] args) {
