@@ -21,6 +21,8 @@ public class MyClass {
         x = 10;
         System.out.println(x);*/
 
+
+
         MyClass ob = new MyClass();
 
         ob.a = 19;
