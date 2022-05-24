@@ -13,12 +13,13 @@ public class MyClass5 {
         this.d = d;
         this.c=  c;
         this.str = str;
-        display();
+       // display();
     }
 
-    void display()
+    void display(int a)
     {
-        System.out.println("a="+a);
+
+        System.out.println("a="+this.a);
         System.out.println("d="+d);
         System.out.println("c="+c);
         System.out.println("str="+str);
