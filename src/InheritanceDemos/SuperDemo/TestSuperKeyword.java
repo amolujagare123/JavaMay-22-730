@@ -1,8 +1,18 @@
 package InheritanceDemos.SuperDemo;
 
-
 class Animal
 {
+    Animal()
+    {
+        System.out.println("Animal constructor");
+    }
+
+    Animal(int a)
+    {
+        System.out.println("a="+a);
+        System.out.println("Animal constructor");
+    }
+
     String color = "Black";
     void eat()
     {
@@ -11,6 +21,13 @@ class Animal
 }
 class Dog extends Animal
 {
+    Dog()
+    {
+        super(20);
+        System.out.println("Dog constructor");
+    }
+
+
     String color = "White";
     void eat()
     {
@@ -25,7 +42,7 @@ class Dog extends Animal
     }
 }
 
-class BabyDog extends Dog
+/*class BabyDog extends Dog
 {
     String color = "gray";
     void eat()
@@ -39,15 +56,15 @@ class BabyDog extends Dog
         eat(); // BabyDog eat
         super.eat(); // Dog Eat
     }
-}
+}*/
 
 
 public class TestSuperKeyword {
     public static void main(String[] args) {
         Dog d = new Dog();
-       // d.printColor();
+        //d.printColor();
 
-        BabyDog bd = new BabyDog();
-        bd.babyDogMethod();
+      /*  BabyDog bd = new BabyDog();
+        bd.babyDogMethod();*/
     }
 }
