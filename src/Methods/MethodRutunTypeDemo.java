@@ -8,6 +8,16 @@ public class MethodRutunTypeDemo {
         return x;
     }
 
+    boolean myResult(String s1,String s2)
+    {
+      /*  boolean result = s1.equals(s2);
+        return result ;*/
+
+        return   s1.equals(s2);
+    }
+
+
+
  /*   int calculations(int a, int b ,int c)
     {
         int res1 = a+b;
@@ -35,11 +45,16 @@ public class MethodRutunTypeDemo {
         // it actually holds the value that it returns
 
         System.out.println("b="+b);
-
         System.out.println(ob.myIntMethod());
 
 
       //  System.out.println(ob.calculations(11,-10,10));
+
+        System.out.println(ob.myResult("amol","ravi"));
+
+        boolean value = ob.myResult("amol","ravi");
+
+        System.out.println(value);
 
     }
 }
