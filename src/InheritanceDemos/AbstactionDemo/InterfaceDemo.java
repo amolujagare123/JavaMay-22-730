@@ -8,6 +8,11 @@ public interface InterfaceDemo {
     {
         System.out.println("display");
     }
+    default void display2()
+    {
+        System.out.println("display1");
+    }
+
     private void display1()
     {
         System.out.println("display1");
@@ -33,6 +38,7 @@ class ChildInterface implements InterfaceDemo
         ob.run();
         ob.start();
         InterfaceDemo.display();
+        ob.display2();
     }
 
 }
