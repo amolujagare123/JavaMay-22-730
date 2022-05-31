@@ -14,6 +14,12 @@ public class Student {
 
     public static void main(String[] args) {
 
+       // int a = 10;
+
+     //   rno = 10; // non static member not allowed
+     //   college = ""; // static member directly allowed
+
+
         Student s1 = new Student();
         Student s2 = new Student();
         Student s3 = new Student();
@@ -27,11 +33,14 @@ public class Student {
         s3.rno = 3;
         s3.name = "Paramesh";
 
-
         //s2.college = "PICT";
+
+        Student.college = "Pune college";
 
         s1.display();
         s2.display();
         s3.display();
+
+        System.out.println(Student.college);
     }
 }
