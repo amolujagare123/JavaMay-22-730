@@ -15,10 +15,13 @@ public class ArraysDemo2 {
         System.out.println("size="+a.length);
 
 
-        for (int i=0;i<a.length;i++)
+       /* for (int i=0;i<a.length;i++)
         {
             System.out.println(a[i]);
-        }
+        }*/
+
+        for (double d : a)
+            System.out.println(d);
 
     }
 }
